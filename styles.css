@@ -1,0 +1,129 @@
+body_{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    height: 100vh;
+}
+
+.form-container{
+    margin-top: 0;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 100vh;
+}
+
+.left{
+    background-image: url(images/sewing-hand.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+}
+
+.logo-holder{
+   height: 70px;
+   width: 100%;
+   background-color: hwb(210 71% 29%);
+   margin-top: 200px;
+   opacity: 0.7;
+}
+
+img{
+    height: 100%;
+    margin-left: 40%;
+}
+
+.right{
+    background-color: hsl(329, 30%, 76%);
+    height: 100%;
+    width: 60%;
+}
+
+.form-body{
+    width: 80%;
+    margin:auto;
+}
+
+.stories{
+    font-size: 25px;
+    /* margin: 30px 10%;
+    width: auto; */
+    text-align: center;
+}
+
+.form{
+    border: 1px solid white;
+    background-color: #fafdff;
+    padding: 5px 20px;
+    width: 80%;
+    margin: auto;
+    font: 1.3em sans-serif;
+    border-radius: 10px;
+}
+
+.form-input{
+    margin: 10px;
+    padding: 5px;
+}
+
+label{
+    /* line-height: 30px;  */
+    /* width: max-content;  */
+    display: block;
+}
+
+input{
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid gray;
+    /* background-color: hsl(0, 5%, 74%); */
+    font-size: 24px;
+    padding: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input:focus{
+    border: 3px solid red;
+}
+
+.store{
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.account{
+    color: brown;
+    font-weight: bold;
+}
+
+.button{
+    text-align: center;
+    margin-top: 0;
+}
+
+button{
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin-top: 5px;  
+    font-size: 1.2em;
+}
+
+.othermeans{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.othermeans p{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.spew{
+    margin-bottom: 10px;
+}
