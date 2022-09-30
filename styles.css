@@ -104,7 +104,7 @@ input:focus{
 }
 
 .account{
-    color: hsl(329, 30%, 76%);;
+    color: hwb(329 7% 19%);
     font-weight: bold;
 }
 
@@ -118,6 +118,21 @@ button{
     border-radius: 5px;
     margin-top: 5px;  
     font-size: 1.2em;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(329, 30%, 76%);
+    border: none;
+}
+
+button:active{
+    background: hwb(329 7% 19%);
+    color: aliceblue;
+    border: none;
 }
 
 .othermeans{
