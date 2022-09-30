@@ -21,6 +21,7 @@ body_{
     background-size: cover;
     height: 100%;
     width: 40%;
+    padding-bottom: 20px;
 }
 
 .logo-holder{
@@ -40,6 +41,8 @@ img{
     background-color: hsl(329, 30%, 76%);
     height: 100%;
     width: 60%;
+    margin-top: 0;
+    padding-bottom: 20px;
 }
 
 .form-body{
@@ -48,10 +51,13 @@ img{
 }
 
 .stories{
-    font-size: 25px;
+    font-size: 1.8em;
     /* margin: 30px 10%;
     width: auto; */
     text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+    margin-bottom: 5px;
 }
 
 .form{
@@ -88,7 +94,7 @@ input{
 }
 
 input:focus{
-    border: 3px solid red;
+    border: 3px solid hsl(329, 30%, 76%);;
 }
 
 .store{
@@ -98,7 +104,7 @@ input:focus{
 }
 
 .account{
-    color: brown;
+    color: hsl(329, 30%, 76%);;
     font-weight: bold;
 }
 
